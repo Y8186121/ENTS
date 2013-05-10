@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_back2"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".LegalActivity" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin" 
+    android:background="@drawable/grey">
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Anime Feed and Anime Feed Lite display content generated from external websites. No rights are claimed  in relation to any content provided by external sites. Anime Feed and Anime Feed Lite are not responcible for the content of external websites."
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textSize="20sp" />
+    
+</RelativeLayout>
